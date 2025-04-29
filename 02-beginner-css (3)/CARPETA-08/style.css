@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightcoral;
+    border: 3px solid saddlebrown;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.container div {
+    background-color: lavender;
+    border: 2px solid #009f;
+    border-radius: 6px;
+
+}

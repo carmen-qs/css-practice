@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    background-color: #ededed;
+    box-sizing: border-box;
+}
+
+.home {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
+}
+
+.in-flex {
+    flex: 1;
+    /* background-color: brown; */
+    min-width: 300px;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    background-color: yellow;
+    padding: 25px;
+    margin-bottom: 0px;
+
+}
+
+.in-flex div {
+    padding: 25px;
+    background-color: purple;
+    margin: 20px;
+}

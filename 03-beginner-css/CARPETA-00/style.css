@@ -1,0 +1,41 @@
+body {
+    background-color: #7ee9e9;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly; /*depende de la alineacion del eje principal*/
+    background-color: palevioletred;
+    height: 600px;
+}
+
+.flex-item {
+    width: 200px;
+    height: 100px;
+    background-color: antiquewhite;
+    /* margin: 15px; */
+    text-align: center;
+
+
+}
+
+.flex-item:first-child {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+
+
+.flex-item:last-child {
+    background-color:purple ;
+    border: 3px solid sandybrown;
+    flex-grow: 4;
+
+}
+/* .item__1 {
+    border: 2px solid saddlebrown;
+    order: 3;
+} */

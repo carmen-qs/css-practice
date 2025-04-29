@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .caja {
+    margin: 25px;
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+
+}
+
+.caja img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    object-fit: cover;
+    object-position: left;
+    width: 400px; 
+} */
+
+div {
+    width: 45%;
+    display: inline-block;
+    padding: 15px;
+    background-color: #827575;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.caja_2 {
+    background-color: antiquewhite;
+}
+
+@media only screen and(max-width: 800px) {
+    div {
+        display: block;
+        width: 100%;
+    }
+}

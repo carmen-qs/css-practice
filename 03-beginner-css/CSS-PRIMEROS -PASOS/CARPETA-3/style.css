@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 3px solid black;
+    display: flex;
+}
+
+.element {
+    color: rgb(30, 105, 172);
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.element1 {
+    background-color: aqua;
+}
+
+.element2 {
+    background-color: chocolate;
+}
+
+.element3 {
+    background-color: cornflowerblue;
+}

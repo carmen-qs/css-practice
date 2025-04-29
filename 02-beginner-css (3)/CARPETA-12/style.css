@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 3px solid saddlebrown;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid rgb(244, 248, 22);
+    /* margin: 10px; */
+
+}
+
+.flex-item:first-child{
+    background-color: palevioletred;
+    flex-grow: 1;
+}

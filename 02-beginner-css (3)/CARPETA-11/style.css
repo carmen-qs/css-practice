@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.box:hover {
+    background-color: aqua;
+    color: wheat;
+    font-weight: 700;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 2s;
+
+}

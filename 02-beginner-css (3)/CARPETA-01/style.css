@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: violet;
+    background-color: rgb(155, 10, 155);
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    width: 10em;
+    height: 3em;
+    text-shadow: 1px 1px 10px salmon;
+    transform: rotate( 45deg);
+    /* border-radius: 20%; */
+}
+
+.menu {
+    background-color: magenta;
+    color: white;
+    border: 5px solid brown;
+    box-shadow: 0px 0px 20px 0px gray;
+    margin: 20px 0px 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+p {
+    letter-spacing: 3px; /*espacion entre las silabas */
+    word-spacing: 9px; /* espacio entre palabras*/
+    text-indent: 10px; /*identacion */
+    text-transform: uppercase;
+}
+
+p span {
+    color: aqua;
+}
+
+.container {
+    background-color: blueviolet;
+}
+
+.box {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 6px solid rgb(204, 188, 11);
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+.box:first-child{
+    background-color: salmon;
+    text-align: center;
+    line-height: 5em;
+    
+}

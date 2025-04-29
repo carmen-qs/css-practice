@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /*CROSS AXIS-solo se usa cuando existe una linea. para varias lineas se usa (align-content*/
+    height: 100vh;/*esto es necesario  para que funcione el de arriba*/
+    /* transform: rotate(90deg); */
+}
+
+.flex-item {
+    background-color: #48e;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    /*Propiedades de los items*/
+    flex-grow: 1;
+}
+
+.ultima_caja {
+    align-self: self-start; /*CROSS AXIS*/
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-articles  {
+    /* display: flex;*/
+    flex-wrap: wrap; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+    
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d32c48;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    flex: 1;
+
+
+}
+
+.article img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+@media (width > 500px){
+    body {
+        background-color: #cf07ea;
+
+    }
+
+    .hero__title {
+        font-size: 2em;
+        color: rgb(3, 120, 15);
+    }
+}

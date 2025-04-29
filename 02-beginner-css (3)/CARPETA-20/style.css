@@ -1,0 +1,23 @@
+:root {
+    color: #02a353;
+    --default-bg-color: #9898f0;
+}
+
+html {
+    color: rgb(67, 132, 135);
+}
+
+.custom-props1 {
+    --primary-color: #db7f7f;
+    --font-size: 32px;
+    background-color: var(--primary-color);
+}
+
+.custom-props3 {
+    font-size: var(--font-size);
+}
+.title {
+    --primary-color: #6767f4;
+    color: var(--primary-color, purple);
+    background-color: var(--default-bg-color);
+}

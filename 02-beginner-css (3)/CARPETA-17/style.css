@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* gap: 2em; */
+    /* column-gap: 2em;
+    row-gap: 3em; */
+    gap: 0.4em;
+    border: 2px solid saddlebrown;
+    margin: auto;
+    margin-top: 2em;
+    width: 90vh;
+}
+
+.grid-item {
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px; 
+    font-size: 30px;
+    color: #fff;
+    /* width: 40%; */
+    /* display: inline-block; */
+}
+
+/* .grid-item:first-child {
+    width: 20px;
+} */

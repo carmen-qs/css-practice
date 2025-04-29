@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid saddlebrown;
+    margin: 30vh auto;
+    width: 300px;
+    display: flex;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: chartreuse;
+}
+
+.caja-1 {
+    background-color: aquamarine;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    right: 200px;
+    bottom: 200px;
+
+    z-index: 1;
+}
+
+.caja-2 {
+    background-color: black;
+    z-index: 2;
+}
+
+.caja-3 {
+    background-color: bisque;
+}
+
+.caja-4 {
+    background-color: blue;
+}
+
+.caja-5 {
+    background-color: palevioletred;
+    z-index: 2;
+}
+
+.caja-6 {
+    background-color: rgb(149, 9, 55);
+}

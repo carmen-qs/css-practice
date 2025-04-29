@@ -1,0 +1,34 @@
+
+img[src="https://www.ngenespanol.com/wp-content/uploads/2023/11/Seul-sus-alrededores.jpg"]{
+    width: 100%;
+    border: 7px solid sandybrown;
+}
+
+.container {
+    background-color: #95f8d7;
+    color: #322032;
+    font-weight: bold;
+
+}
+
+.container > strong { /*hijo directo--Incluye a tods no afeccta el orden ojoooooo*/
+    color: white;
+}
+ul {
+    list-style: square;
+}
+
+h1 + p {
+    color: blue;
+}
+
+/* section:has(span){
+    background-color: #322032;
+    color: white;
+} */
+
+section :is(.elemento__1, .elemento__2, span){
+    color: darkgoldenrod;
+    font-size: 2em;
+}
+

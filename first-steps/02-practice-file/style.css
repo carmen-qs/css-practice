@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.static {
+    background-color: #eeee65;
+    position: static;
+}
+
+.relative {
+    background-color: #dc4a7b;
+    position: relative;
+    top: 30px;
+}
+
+.c {
+    background-color: aqua;
+}
+
+body {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card {
+
+    border:  3px solid saddlebrown;
+    margin: 1em;
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.card img {
+    height: 50vh;
+    width: 100%;
+}
+
+.backdrop-filter {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+    bottom: 0; 
+}
+
+.backdrop-filter h4 {
+    background-color: hsl(180, 84%, 39%, 0.5);
+    font-size: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    backdrop-filter: grayscale(1);
+
+}
+
+

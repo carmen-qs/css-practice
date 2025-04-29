@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.container{
+    width: 90%;
+    height: 500px;
+    border: 2px solid black;
+    margin: 80px auto;
+}
+
+.position{
+    width: 150px;
+    height: 100px;
+    font-size: 1.3rem;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.static {
+    background-color: midnightblue;
+}
+
+.relative {
+    background-color: tomato;
+}
+
+.absolute{
+    background-color: purple;
+}
+
+.fixed {
+    background-color: royalblue;
+}
+
+.element {
+    margin: 80PX auto;
+    width: 50%;
+    height: 200px;
+    background-color: royalblue;
+
+}
+
+/* @media (max-width: 500px){
+    .element{
+        background-color: crimson;
+    }
+
+} */
+
+@media (min-width: 500px){
+    body{
+        background-color: aqua;
+    }
+    .element{
+        background-color: chartreuse;
+    }
+
+}

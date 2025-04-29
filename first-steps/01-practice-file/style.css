@@ -1,0 +1,97 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    /* box-sizing: border-box; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lista_container li {
+    background-color: #2fb588;
+}
+
+li {
+    list-style: none;
+    font-weight: 3em;
+}
+
+.navigation {
+    background-color: #7c0ce5;
+    height: 10em;
+    width: 4em;
+}
+
+div {
+    height: 3.4em;
+    /* width: 4em; */
+    background-color: #2fb588;
+    padding: 2em 4em ;
+    border-radius: 5px;
+    margin: 1em;
+    border: 2px solid #800080;
+}
+
+.parrafo {
+    /* display: block;  */
+    background-color: #7c0ce5;
+    border: 2px solid #336b99;
+    margin-bottom: 1em;
+    display: inline-block;
+    padding: 1em;
+     
+
+    
+}
+
+.caja_1,
+.caja_2 {
+    border: 6px solid saddlebrown;
+    width: 50%;
+    padding: 1em 2em 3em 5em;
+    margin: 3em;
+    background-color: #7c0ce5;
+    height: 15em;
+}
+
+
+.diysplay {
+    background-color: #5676d8;
+    /* padding: 1em 2em ; */
+    /* height: 10em; */
+}
+
+.container-floats {
+    background-color: #5676d8;
+}
+
+.float-right {
+    float: right;
+    
+}
+
+.float-left {
+    float: left;
+    clear: both;
+
+}
+
+.sitio-web {
+    border: 3px solid #a509a5;
+    background-color: #5676d8;
+    width: 800px;
+    height: 1000px;
+    padding: 16px;
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
